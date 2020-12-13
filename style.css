@@ -230,15 +230,15 @@ html {
 }
 
 .main_img--card {
-    margin: 10px;
+    margin: 10px auto;
     height: 500px;
     width: 600px;
-    border-radius: 1px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #00dbde 0%, #decedf 100%);
 
 }
 
@@ -449,16 +449,15 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1905px;
     height: 100%;
+    margin: 0 auto;
     text-align: center;
     
     
 }
 
-.home_img--container {
-    text-align: center;
-}
+
 
 .home_img--card {
     margin-top: 0;
@@ -468,13 +467,11 @@ html {
 
 
 
-.home_img--card img {
-    align-items: center;
-    height: 50vh;
-    width: 150.3vh;
-    
-    
-    
+.home_img--container {
+    width: 100%;
+    padding-top: 42%;
+    background: url('images/petrol-stations.jpg') no-repeat center;
+    background-size: cover;
     
     
 }
